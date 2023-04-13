@@ -6,3 +6,142 @@ Green: #00B172
 White: #FFF
 
 */
+*{
+    font-family:  Helvetica, Arial,sans-serif;
+    
+}
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: lighter;
+    
+  }
+/*navigation*/
+
+.navigation img{
+    height: 40px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    margin:10px;
+}
+.navigation ul{
+    
+    list-style: none;
+}
+.nav-menu{ /* menu horizontal*/
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap:10px;   
+    
+}
+
+/* header*/
+.header{
+    background-image: url("/images/landing.jpg");
+    background-size: contain;
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header h1{
+    color:white;
+    font-size: 3em;
+    font-weight: bold;
+    
+}
+.header h3{
+    margin-top: 20px;
+    color: white;
+    width: 50%;
+    text-align: center;
+}
+/* seccion on-spotify*/
+.center{
+    display: flex;
+    justify-content: center;
+}
+.title-center{
+  
+    
+   width: 20%;
+  margin:15px;
+    
+    font-weight: bold;
+    font-size: 1.6em;
+    border-bottom: 3px solid #00B172;
+ 
+   
+}
+.on-spotify {
+   text-align: center;
+   margin: 20px 0 30px 0;
+
+}
+.articles{
+    display: flex;
+    justify-content: space-evenly;
+    gap:10px;
+   
+}
+article{
+    width: 25%;
+}
+
+.articles img{
+    height: 50px;
+}
+.articles h3{
+    color:#00B172;
+ font-weight: bold;
+}
+.articles h5{
+    color:#1A1A1A
+}
+
+/* section info*/
+.img-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-info img{
+   
+    height: 350px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+    width: 25%;
+}
+.other{
+    position: relative;
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #00B172;
+    padding:2% 0;
+ 
+}
+.other h2{
+    margin: 35px 0;
+}
+.other h3{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.logo-pos{
+    position: absolute;
+    width: 150px;
+    top:250px;
+    right:750px;
+    
+}
+ 
